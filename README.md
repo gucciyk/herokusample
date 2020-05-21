@@ -1,2 +1,3 @@
 # herokusample
-This is GetHub practice
+LINEbot practice
+
