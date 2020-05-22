@@ -13,6 +13,8 @@ from linebot.models import (
     FollowEvent, MessageEvent, TextMessage, TextSendMessage, ImageMessage, ImageSendMessage, TemplateSendMessage, ButtonsTemplate, PostbackTemplateAction, MessageTemplateAction, URITemplateAction
 )
 import os
+import logging
+import sys
 
 # 軽量なウェブアプリケーションフレームワーク:Flask
 app = Flask(__name__)
