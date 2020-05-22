@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-　
 
 # インポートするライブラリ
 from flask import Flask, request, abort
