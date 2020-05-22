@@ -18,7 +18,7 @@ import os
 app = Flask(__name__)
 
 
-#環境変数からLINE Access Tokenを設定
+#Heroku環境変数からLINE Access Tokenを設定
 channel_secret = os.environ["YOUR_CHANNEL_SECRET"]
 channel_access_token = os.environ["YOUR_CHANNEL_ACCESS_TOKEN"]
 if channel_secret is None:
